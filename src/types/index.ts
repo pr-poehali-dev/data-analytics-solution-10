@@ -8,6 +8,7 @@ export interface Section {
   showButton?: boolean
   buttonText?: string
   subjects?: { name: string; icon: string }[]
+  videos?: { title: string; subject: string; duration: string; youtubeId: string }[]
 }
 
 export interface SectionProps extends Section {
